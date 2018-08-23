@@ -1,0 +1,26 @@
+git init 
+git status 
+git add
+git commit -m <message>
+git log
+git diff <commit1> <commit2>
+git checkout <commit id>(master)
+git checkout -b <newbranchName>
+git cheackout <branchname>
+git add <filename> // ->staging
+git reset <filename>// <- staging
+git diff // difference last commit and current version
+git diff --staged //  difference between repository and staged files
+git reset --hard // discard changes 
+git branch // show branches
+git log --graph --oneline 
+git merge <branch2>//assuming you are in branch 1
+git merge --abort
+git show <commit_id> // compare commit with its parent
+git push  // send data
+git push <remote> <branchname>// for example git push origin master
+git pull // make update
+git remote add origin <repo-url>
+git remote // see remote repo
+git remote -v //url remote repo
+git remote rm <remote>// remove remote
