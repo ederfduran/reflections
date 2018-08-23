@@ -3,6 +3,8 @@ git status
 git add
 git commit -m <message>
 git log
+git clone <url>
+git clone -b <branchname> <url>
 git diff <commit1> <commit2>
 git checkout <commit id>(master)
 git checkout -b <newbranchName>
@@ -20,7 +22,9 @@ git show <commit_id> // compare commit with its parent
 git push  // send data
 git push <remote> <branchname>// for example git push origin master
 git pull // make update
+git pull <remote> <branchname>
 git remote add origin <repo-url>
 git remote // see remote repo
 git remote -v //url remote repo
 git remote rm <remote>// remove remote
+//remote in a local repository is a reference to another repo

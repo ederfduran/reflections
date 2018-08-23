@@ -1,3 +1,8 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
 this is a change i want introduce
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+check if we are those new features in local repo.
