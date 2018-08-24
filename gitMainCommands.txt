@@ -15,6 +15,7 @@ git diff // difference last commit and current version
 git diff --staged //  difference between repository and staged files
 git reset --hard // discard changes 
 git branch // show branches
+git branch <newbranch>// create new branch
 git log --graph --oneline 
 git merge <branch2>//assuming you are in branch 1
 git merge --abort
@@ -28,3 +29,6 @@ git remote // see remote repo
 git remote -v //url remote repo
 git remote rm <remote>// remove remote
 //remote in a local repository is a reference to another repo
+git fetch // update the local copy
+// git pull origin master= git fetch origin +
+    git merge master origin/master 
